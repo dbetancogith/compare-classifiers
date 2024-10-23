@@ -1,6 +1,19 @@
-### Conclusions:
+### Project comparing classifiers
+
+### Overview
+The increasingly vast number of marketing campaigns over time has reduced its effect on the general public. Therefore there is pressure to make campaigns more sucessful and the same time less expensive. To do so marketing departments need to direct the efforts to customers where the campaign has high probability of success. This project compare different models and metrics to show where the campaings will be more effective, following the CRoss-Industry Standard Process for Data Mining (CRISP-DM). 
+
+### Content Index 
+- [Data](#data)
+- [Business Objective](#business-objective)
+- [Engineering Features](#engineering-features)
+- [Train Test Split](#train-test-split)
+- [A Baseline Model](#a-baseline-model)
+- [A Simple Model](#a-simple-model)
+- [Model Comparisons](#model-comparisons)
+
 ### Data:
-The dataset collected is related to 17 campaigns that occurred between May 2008 and November 2010, corresponding to a total of 79354 contacts. During these phone campaigns, an attractive long-term deposit application, with good interest rates, was offered. For each contact, a large number of attributes was stored and if there was a success (the target variable).
+The dataset collected is related to 17 campaigns that occurred between May 2008 and November 2010 for a Portuguese bank, corresponding to a total of 79354 contacts. During these phone campaigns, an attractive long-term deposit application, with good interest rates, was offered. For each contact, a large number of attributes was stored and if there was a success (the target variable).
 The target variable shows an unbalanced class, which is usually the case for campaigns.
 There are not null values on the dataset.
 
@@ -12,7 +25,7 @@ Started with JamesSteinEncoder because of how it manages features with many uniq
 Switch to TargetEncoder has similar features but it is better for binary classification. Noticed that the performance and metrics are better with TargetEncoder.
 The transformer below encodes and scaled the data.
 
-### Train/Test Split
+### Train Test Split
 Used test size of 40% given the large number of records (41188), the size of the test data also affects the results. Thus the larger the test data the lower the scores for the same models.
 
 ### First Iteration: A Baseline Model
