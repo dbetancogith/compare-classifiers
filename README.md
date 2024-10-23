@@ -42,8 +42,9 @@ Build and fit 4 models: Logistic Regression, KNN, Decision Tree, and SVM using t
 
 **Results:**
 
-   *Best Score: LogisticRegression
-   *Best Fit Time: KNeighborsClassifier
+  *Best Score: LogisticRegression
+  
+  *Best Fit Time: KNeighborsClassifier
 
 ![Comparing Models](/graphs/comparing-models.png)
 
@@ -55,6 +56,7 @@ Build and fit 4 models: Logistic Regression, KNN, Decision Tree, and SVM using t
 **Results:**
 
    *Best Score: Decision Tress
+   
    *Best Fit Time: KNeighborsClassifier
 
 ![Tuning Params](/graphs/tuning-params.png)
