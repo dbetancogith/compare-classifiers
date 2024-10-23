@@ -40,7 +40,7 @@ Build and fit 4 models: Logistic Regression, KNN, Decision Tree, and SVM using t
 *Best Score: LogisticRegression
 *Best Fit Time: KNeighborsClassifier
 
-![Comparing models.png](attachment:82b7d0cb-66ee-403b-8182-0b1151d9867a.png)
+![Comparing models.png]()
 
 ### Fourth Iteration: Improving the Model - Tuning Parameters
 1. The remaining features, after gender, will stay in the dataset for two major reasons: First, as shown in the heapmap graph below, there is interdependence among the features, they are correlated. Second, the features do not have a normal distribution on the values, please see the graph for "education" below when the campaigns were successful.
@@ -50,7 +50,7 @@ Build and fit 4 models: Logistic Regression, KNN, Decision Tree, and SVM using t
 *Best Score: Decision Tress
 *Best Fit Time: KNeighborsClassifier
 
-![Tuning Params.png](attachment:b11f3a7f-d905-405a-b10c-3ee4d43d1add.png)
+![Tuning Params.png](graphs/Comparing models.png)
 
 **Best Parameters:**
 ![Best Params.png](attachment:503129e7-824f-4f8e-95c4-d7eb179605fa.png)
