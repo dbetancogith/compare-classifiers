@@ -8,7 +8,7 @@ The increasingly vast number of marketing campaigns over time has reduced its ef
 - [Business Objective](#business-objective)
 - [Engineering Features](#engineering-features)
 - [Train Test Split](#train-test-split)
-- [First Iteration: A Baseline Model](#first-iteration:-a-baseline-model)
+- [First Iteration A Baseline Model](#first-iteration-a-baseline-model)
 - [A Simple Model](#a-simple-model)
 - [Model Comparisons](#model-comparisons)
 
@@ -28,7 +28,7 @@ The transformer below encodes and scaled the data.
 ### Train Test Split
 Used test size of 40% given the large number of records (41188), the size of the test data also affects the results. Thus the larger the test data the lower the scores for the same models.
 
-### First Iteration: A Baseline Model
+### First Iteration A Baseline Model
 Used a DummyClassifier for the baseline with accuracy of **0.8853**
 
 ### Second Iteration: A Simple Model
