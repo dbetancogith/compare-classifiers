@@ -93,8 +93,9 @@ Finally **the confusion matrix** for each model shows the values for TP, FP and 
 
 ![Confusion Matrix](/graphs/confusion-matrix.png)
 
-### Next Steps:
-1. Redefine further the parameters, due to the large dataset it takes quite some time to run, specially SVC - maybe get a better processing in GO 
-2. Run the tuned models with the complete list of features
-3. Metrics can be tune/redefine to get better understanding of the models outputs
-4. Replace the GridSearchCV with HalvingRandomSearchCV or RandomizeSearchCV and compare the results
+### Next Steps and Recomendations:
+1. Campaings can make 30% less calls and still getting 90% sucess in the customers representing around 33% increase in customers signing for the long-term deposit application 
+3. Redefine further the parameters, due to the large dataset it takes quite some time to run, specially SVC - maybe get a better processing in GO 
+4. Run the tuned models with the complete list of features
+5. Metrics can be tune/redefine to get better understanding of the models outputs
+6. Replace the GridSearchCV with HalvingRandomSearchCV or RandomizeSearchCV and compare the results
