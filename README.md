@@ -9,8 +9,11 @@ The increasingly vast number of marketing campaigns over time has reduced its ef
 - [Engineering Features](#engineering-features)
 - [Train Test Split](#train-test-split)
 - [First Iteration A Baseline Model](#first-iteration-a-baseline-model)
-- [A Simple Model](#a-simple-model)
-- [Model Comparisons](#model-comparisons)
+- [Second Iteration A Simple Model](#second-iteration-a-simple-model)
+- [Third Iteration Model Comparisons](#third-iteration-Model-Comparisons)
+- [Fourth Iteration Improving the Model - Tuning Parameters](#fourth-iteration-improving-themodel---tuning-parameters)
+- [Adjust your performance metric](#adjust-your-performance-metric)
+- [Next Steps](#next-steps)
 
 ### Data:
 The dataset collected is related to 17 campaigns that occurred between May 2008 and November 2010 for a Portuguese bank, corresponding to a total of 79354 contacts. During these phone campaigns, an attractive long-term deposit application, with good interest rates, was offered. For each contact, a large number of attributes was stored and if there was a success (the target variable).
@@ -31,10 +34,10 @@ Used test size of 40% given the large number of records (41188), the size of the
 ### First Iteration A Baseline Model
 Used a DummyClassifier for the baseline with accuracy of **0.8853**
 
-### Second Iteration: A Simple Model
+### Second Iteration A Simple Model
 Use Logistic Regression to build a basic model on your data with accuracy of **0.91**
 
-### Third Iteration: Model Comparisons
+### Third Iteration Model Comparisons
 Build and fit 4 models: Logistic Regression, KNN, Decision Tree, and SVM using the default parameters.
 **Results:*
 *Best Score: LogisticRegression
@@ -50,10 +53,10 @@ Build and fit 4 models: Logistic Regression, KNN, Decision Tree, and SVM using t
 *Best Score: Decision Tress
 *Best Fit Time: KNeighborsClassifier
 
-![Tuning Params.png](graphs/Comparing models.png)
+![Tuning Params](/graphs/tuning-params.png)
 
 **Best Parameters:**
-![Best Params.png](attachment:503129e7-824f-4f8e-95c4-d7eb179605fa.png)
+![Best Params](/graphs/best-params.png)
 
 ### Adjust your performance metric
 So far fit time, accuracy, precision, and recall  are the metrics to compare the 4 models. Now Lift and ROC will be used adjusting the metrics.
@@ -71,19 +74,19 @@ In this case Lift Charts are showing for example at the point 0.1 (10%), 0.5 (50
 
 **The cumulative gain curves and ROC curves show the Logistic Regression as best model with AUC of 0.88 and 0.93.**
 
-![Lift and ROC Graphs.png](attachment:573bb3c8-564e-452b-ac1b-bf75626972eb.png)
+![Lift and ROC Graphs](/graphs/lift-roc-graphs.png)
 
 Next, **the lift curve* is derived from the cumulative gains chart; the values on the y axis correspond to the ratio of the cumulative gain for each curve to the baseline. Thus, the lift at 10% for the category Yes is 50%/10% = 5.0. It provides another way of looking at the information in the cumulative gains chart.
 
-![Lift curve.png](attachment:8af7fdab-ba84-45de-8683-68551a28beb1.png)
+![Lift curve](/graphs/lift-curve.png)
 
 Plotting **the calibration curves** of a classifier is useful for determining whether or not you can interpret their predicted probabilities directly as a confidence level. For instance, a well-calibrated binary classifier should classify the samples such that for samples to which it gave a score of 0.8, around 80% should actually be from the positive class.
 
-![Calibration Plots.png](attachment:f4ad90c4-c606-4e2d-8a9f-d34003626c1f.png)
+![Calibration Plots](/graphs/calibration-plots.png)
 
 Finally **the confusion matrix** for each model shows the values for TP, FP and FN, in this case the idea is to increase the number of people in the campaign that will say Yes and reduce the number of calls.
 
-![Confusion Matrix.png](attachment:a7418ece-8667-4ef6-ab43-675ff958adac.png)
+![Confusion Matrix](/graphs/confusion-matrix.png)
 
 ### Next Steps:
 1. Redefine further the parameters, due to the large dataset it takes quite some time to run, specially SVC - maybe get a better processing in GO 
