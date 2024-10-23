@@ -56,6 +56,7 @@ Build and fit 4 models: Logistic Regression, KNN, Decision Tree, and SVM using t
 ![Tuning Params](/graphs/tuning-params.png)
 
 **Best Parameters:**
+
 ![Best Params](/graphs/best-params.png)
 
 ### Adjust your performance metric
