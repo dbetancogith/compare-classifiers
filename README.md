@@ -41,6 +41,7 @@ Use Logistic Regression to build a basic model on your data with accuracy of **0
 Build and fit 4 models: Logistic Regression, KNN, Decision Tree, and SVM using the default parameters.
 
 **Results:**
+
    *Best Score: LogisticRegression
    *Best Fit Time: KNeighborsClassifier
 
@@ -52,6 +53,7 @@ Build and fit 4 models: Logistic Regression, KNN, Decision Tree, and SVM using t
 3. As a result the scores will be a bit lower, however, still valid and can formulate conclusions.
    
 **Results:**
+
    *Best Score: Decision Tress
    *Best Fit Time: KNeighborsClassifier
 
@@ -79,11 +81,11 @@ In this case Lift Charts are showing for example at the point 0.1 (10%), 0.5 (50
 
 ![Lift and ROC Graphs](/graphs/lift-roc-graphs.png)
 
-Next, **the lift curve* is derived from the cumulative gains chart; the values on the y axis correspond to the ratio of the cumulative gain for each curve to the baseline. Thus, the lift at 10% for the category Yes is 50%/10% = 5.0. It provides another way of looking at the information in the cumulative gains chart.
+Next, **the Lift Curve** is derived from the cumulative gains chart; the values on the y axis correspond to the ratio of the cumulative gain for each curve to the baseline. Thus, the lift at 10% for the category Yes is 50%/10% = 5.0. It provides another way of looking at the information in the cumulative gains chart.
 
 ![Lift curve](/graphs/lift-curve.png)
 
-Plotting **the calibration curves** of a classifier is useful for determining whether or not you can interpret their predicted probabilities directly as a confidence level. For instance, a well-calibrated binary classifier should classify the samples such that for samples to which it gave a score of 0.8, around 80% should actually be from the positive class.
+Plotting **the Calibration Curves** of a classifier is useful for determining whether or not you can interpret their predicted probabilities directly as a confidence level. For instance, a well-calibrated binary classifier should classify the samples such that for samples to which it gave a score of 0.8, around 80% should actually be from the positive class.
 
 ![Calibration Plots](/graphs/calibration-plots.png)
 
