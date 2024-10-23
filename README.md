@@ -49,6 +49,7 @@ Build and fit 4 models: Logistic Regression, KNN, Decision Tree, and SVM using t
 1. The remaining features, after gender, will stay in the dataset for two major reasons: First, as shown in the heapmap graph below, there is interdependence among the features, they are correlated. Second, the features do not have a normal distribution on the values, please see the graph for "education" below when the campaigns were successful.
 2. However, given the size of the dataset I am using SelectFromModel with LogistRegression to get the most important features for the classification work with a reduced number of features. This is done to reduce the computational cost, specially for SVC the process does not end with all records in the dataframe.
 3. As a result the scores will be a bit lower, however, still valid and can formulate conclusions.
+   
 **Results:**
 *Best Score: Decision Tress
 *Best Fit Time: KNeighborsClassifier
