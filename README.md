@@ -13,7 +13,7 @@ The increasingly vast number of marketing campaigns over time has reduced its ef
 - [Third Iteration Model Comparisons](#third-iteration-Model-Comparisons)
 - [Fourth Iteration Improving the Model - Tuning Parameters](#fourth-iteration-improving-themodel---tuning-parameters)
 - [Adjust your performance metric](#adjust-your-performance-metric)
-- [Next Steps](#next-steps)
+- [Next Steps and Recommendations](#next-steps-and-recommendations)
 
 ### Data:
 The dataset collected is related to 17 campaigns that occurred between May 2008 and November 2010 for a Portuguese bank, corresponding to a total of 79354 contacts. During these phone campaigns, an attractive long-term deposit application, with good interest rates, was offered. For each contact, a large number of attributes was stored and if there was a success (the target variable).
@@ -93,7 +93,7 @@ Finally **the confusion matrix** for each model shows the values for TP, FP and 
 
 ![Confusion Matrix](/graphs/confusion-matrix.png)
 
-### Next Steps and Recomendations:
+### Next Steps and Recommendations:
 1. Campaings can make 30% less calls and still getting 90% sucess in the customers representing around 41% increase in customers signing for the long-term deposit application 
 3. Redefine further the parameters, due to the large dataset it takes quite some time to run, specially SVC - maybe get a better processing in GO 
 4. Run the tuned models with the complete list of features
