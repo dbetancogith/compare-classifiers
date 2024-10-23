@@ -8,7 +8,7 @@ The increasingly vast number of marketing campaigns over time has reduced its ef
 - [Business Objective](#business-objective)
 - [Engineering Features](#engineering-features)
 - [Train Test Split](#train-test-split)
-- [A Baseline Model](#a-baseline-model)
+- [First Iteration: A Baseline Model](#first-iteration:-a-baseline-model)
 - [A Simple Model](#a-simple-model)
 - [Model Comparisons](#model-comparisons)
 
