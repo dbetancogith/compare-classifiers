@@ -39,9 +39,10 @@ Use Logistic Regression to build a basic model on your data with accuracy of **0
 
 ### Third Iteration Model Comparisons
 Build and fit 4 models: Logistic Regression, KNN, Decision Tree, and SVM using the default parameters.
-**Results:*
-*Best Score: LogisticRegression
-*Best Fit Time: KNeighborsClassifier
+
+**Results:**
+   *Best Score: LogisticRegression
+   *Best Fit Time: KNeighborsClassifier
 
 ![Comparing Models](/graphs/comparing-models.png)
 
@@ -51,8 +52,8 @@ Build and fit 4 models: Logistic Regression, KNN, Decision Tree, and SVM using t
 3. As a result the scores will be a bit lower, however, still valid and can formulate conclusions.
    
 **Results:**
-*Best Score: Decision Tress
-*Best Fit Time: KNeighborsClassifier
+   *Best Score: Decision Tress
+   *Best Fit Time: KNeighborsClassifier
 
 ![Tuning Params](/graphs/tuning-params.png)
 
